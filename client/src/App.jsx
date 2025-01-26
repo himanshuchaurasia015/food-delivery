@@ -11,7 +11,7 @@ import AuthProvider from "./context/AuthContext";
 import SignUpPage from "./pages/SignUpPage.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import { CartProvider } from "./context/CartContext";
-
+//app
 const App = () => {
   return (
     <AuthProvider>
