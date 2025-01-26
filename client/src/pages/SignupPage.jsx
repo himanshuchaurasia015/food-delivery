@@ -3,7 +3,7 @@ import api from "../api/axios";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 
-const SignupPage = () => {
+const SignUpPage = () => {
   const { setUser, setIsAuthenticated } = useContext(AuthContext);
 
   const [username, setUsername] = useState("");
@@ -101,4 +101,4 @@ const SignupPage = () => {
   );
 };
 
-export default SignupPage;
+export default SignUpPage;
